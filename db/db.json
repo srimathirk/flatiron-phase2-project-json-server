@@ -1,52 +1,523 @@
 {
-  "toys": [
+  "gallery": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "images": "https://images.pexels.com/photos/314865/pexels-photo-314865.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "animals",
+      "description": "squirrel: this animal teeth will never stop growing",
+      "views": 0
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "images": "https://images.pexels.com/photos/1003848/pexels-photo-1003848.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "animals",
+      "description": "Elephant: Biggest asian animal with large trunk and ears",
+      "views": 0
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "images": "https://images.pexels.com/photos/705314/pexels-photo-705314.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "animals",
+      "description": "bird: Natures real gardener animal",
+      "views": 0
     },
     {
       "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "images": "https://images.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "animals",
+      "description": "Monkey : Animal which jumps fast speed",
+      "views": 0
     },
     {
       "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "images": "https://images.pexels.com/photos/615277/pexels-photo-615277.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "animals",
+      "description": "animal with large size in cat family",
+      "views": 0
     },
     {
       "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "images": "https://images.pexels.com/photos/2156311/pexels-photo-2156311.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "animals",
+      "description": "beautiful animal under water",
+      "views": 0
     },
     {
       "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "images": "https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "art",
+      "description": "modern art with colourful people",
+      "views": 0
     },
     {
       "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "images": "https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "art",
+      "description": "Largest color gallery art",
+      "views": 0
+    },
+    {
+      "id": 9,
+      "images": "https://images.pexels.com/photos/164455/pexels-photo-164455.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "art",
+      "description": "Embrace your youth art",
+      "views": 0
+    },
+    {
+      "id": 10,
+      "images": "https://images.pexels.com/photos/318238/pexels-photo-318238.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "art",
+      "description": "Art with jingle bells",
+      "views": 0
+    },
+    {
+      "id": 11,
+      "images": "https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "art",
+      "description": "Sparkling art sprinkles",
+      "views": 0
+    },
+    {
+      "id": 12,
+      "images": "https://images.pexels.com/photos/1476505/pexels-photo-1476505.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "art",
+      "description": "Enrich life through work of art",
+      "views": 0
+    },
+    {
+      "id": 13,
+      "images": "https://images.pexels.com/photos/1021074/pexels-photo-1021074.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "beach",
+      "description": "island baech with beautiful views",
+      "views": 0
+    },
+    {
+      "id": 14,
+      "images": "https://images.pexels.com/photos/1373937/pexels-photo-1373937.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "beach",
+      "description": "Beach images",
+      "views": 0
+    },
+    {
+      "id": 15,
+      "images": "https://images.pexels.com/photos/62389/pexels-photo-62389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "beach",
+      "description": "breath taking view at beach",
+      "views": 0
+    },
+    {
+      "id": 16,
+      "images": "https://images.pexels.com/photos/1449767/pexels-photo-1449767.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "beach",
+      "description": "palm tree beach",
+      "views": 0
+    },
+    {
+      "id": 17,
+      "images": "https://images.pexels.com/photos/1817048/pexels-photo-1817048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "beach",
+      "description": "A tribute to the beach",
+      "views": 0
+    },
+    {
+      "id": 18,
+      "images": "https://images.pexels.com/photos/1665725/pexels-photo-1665725.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "beach",
+      "description": "Best beach wallpaper",
+      "views": 0
+    },
+    {
+      "id": 19,
+      "images": "https://images.pexels.com/photos/2339009/pexels-photo-2339009.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "city",
+      "description": "Busy street cities ",
+      "views": 0
+    },
+    {
+      "id": 20,
+      "images": "https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "city",
+      "description": "embrace darkness of night in city",
+      "views": 0
+    },
+    {
+      "id": 21,
+      "images": "https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "city",
+      "description": "Tallest building cities",
+      "views": 0
+    },
+    {
+      "id": 22,
+      "images": "https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "city",
+      "description": "Newyork city bucket list",
+      "views": 0
+    },
+    {
+      "id": 23,
+      "images": "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "city",
+      "description": "City yellow taxi",
+      "views": 0
+    },
+    {
+      "id": 24,
+      "images": "https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "city",
+      "description": "Oppurtunity to remake cities",
+      "views": 0
+    },
+    {
+      "id": 25,
+      "images": "https://images.pexels.com/photos/101472/pexels-photo-101472.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "flowers",
+      "description": "Flowers use scent to attract pollinators",
+      "views": 0
+    },
+    {
+      "id": 26,
+      "images": "https://images.pexels.com/photos/701816/pexels-photo-701816.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "flowers",
+      "description": "cherry blossoms flowers at washington.d.c",
+      "views": 0
+    },
+    {
+      "id": 27,
+      "images": "https://images.pexels.com/photos/1233414/pexels-photo-1233414.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "flowers",
+      "description": "Flowers have very short lifecycle",
+      "views": 0
+    },
+    {
+      "id": 28,
+      "images": "https://images.pexels.com/photos/613001/pexels-photo-613001.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "flowers",
+      "description": "Many flowers have thorns to prevent themselves",
+      "views": 0
+    },
+    {
+      "id": 29,
+      "images": "https://images.pexels.com/photos/772571/pexels-photo-772571.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "flowers",
+      "description": "Flower is the reproductive part of plant",
+      "views": 0
+    },
+    {
+      "id": 30,
+      "images": "https://images.pexels.com/photos/136301/pexels-photo-136301.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "flowers",
+      "description": "Soil can affect colors of flowers too",
+      "views": 0
+    },
+    {
+      "id": 31,
+      "images": "https://images.pexels.com/photos/1171170/pexels-photo-1171170.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "food",
+      "description": "Increae intake of fruits in food",
+      "views": 0
+    },
+    {
+      "id": 32,
+      "images": "https://images.pexels.com/photos/3025236/pexels-photo-3025236.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "food",
+      "description": "fruits are the vitamin rich foods",
+      "views": 0
+    },
+    {
+      "id": 33,
+      "images": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "food",
+      "description": "breakfast to go",
+      "views": 0
+    },
+    {
+      "id": 34,
+      "images": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "food",
+      "description": "veggies intake will enrich nutrients",
+      "views": 0
+    },
+    {
+      "id": 35,
+      "images": "https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "food",
+      "description": "ultra proccessed foods",
+      "views": 0
+    },
+    {
+      "id": 36,
+      "images": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "food",
+      "description": "favourite foods in restaurant",
+      "views": 0
+    },
+    {
+      "id": 37,
+      "images": "https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "forest",
+      "description": "Tropical decidious forest",
+      "views": 0
+    },
+    {
+      "id": 38,
+      "images": "https://images.pexels.com/photos/1083515/pexels-photo-1083515.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "forest",
+      "description": "incredible moving forests",
+      "views": 0
+    },
+    {
+      "id": 39,
+      "images": "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "forest",
+      "description": "Decorate with a wall mural",
+      "views": 0
+    },
+    {
+      "id": 40,
+      "images": "https://images.pexels.com/photos/1125265/pexels-photo-1125265.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "forest",
+      "description": "Nature Forest images",
+      "views": 0
+    },
+    {
+      "id": 41,
+      "images": "https://images.pexels.com/photos/1662540/pexels-photo-1662540.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "forest",
+      "description": "Forest wallpapers",
+      "views": 0
+    },
+    {
+      "id": 42,
+      "images": "https://images.pexels.com/photos/105075/pexels-photo-105075.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "forest",
+      "description": "Threatened forests",
+      "views": 0
+    },
+    {
+      "id": 43,
+      "images": "https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "path",
+      "description": "alphine mountain path",
+      "views": 0
+    },
+    {
+      "id": 44,
+      "images": "https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "path",
+      "description": "Road through the meadows",
+      "views": 0
+    },
+    {
+      "id": 45,
+      "images": "https://images.pexels.com/photos/1125347/pexels-photo-1125347.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "path",
+      "description": "A walk in sunset",
+      "views": 0
+    },
+    {
+      "id": 46,
+      "images": "https://images.pexels.com/photos/568236/pexels-photo-568236.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "path",
+      "description": "clear your path towards success",
+      "views": 0
+    },
+    {
+      "id": 47,
+      "images": "https://images.pexels.com/photos/554609/pexels-photo-554609.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "path",
+      "description": "Morning in the country side",
+      "views": 0
+    },
+    {
+      "id": 48,
+      "images": "https://images.pexels.com/photos/552779/pexels-photo-552779.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "path",
+      "description": "Sunset train pathway",
+      "views": 0
+    },
+    {
+      "id": 49,
+      "images": "https://images.pexels.com/photos/1750378/pexels-photo-1750378.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "pets",
+      "description": "adorable puppy",
+      "views": 0
+    },
+    {
+      "id": 50,
+      "images": "https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "pets",
+      "description": "Pets on work",
+      "views": 0
+    },
+    {
+      "id": 51,
+      "images": "https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "pets",
+      "description": "its time to do some exercise",
+      "views": 0
+    },
+    {
+      "id": 52,
+      "images": "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "pets",
+      "description": "Cute bunny oon meadows",
+      "views": 0
+    },
+    {
+      "id": 53,
+      "images": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "pets",
+      "description": "peacful sleep during a day",
+      "views": 0
+    },
+    {
+      "id": 54,
+      "images": "https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "pets",
+      "description": "Time to take rest",
+      "views": 0
+    },
+    {
+      "id": 55,
+      "images": "https://images.pexels.com/photos/6498990/pexels-photo-6498990.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Space",
+      "description": "Galaxy space",
+      "views": 0
+    },
+    {
+      "id": 56,
+      "images": "https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Space",
+      "description": "Nasa reveals cosmic climate",
+      "views": 0
+    },
+    {
+      "id": 57,
+      "images": "https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Space",
+      "description": "Night sky view",
+      "views": 0
+    },
+    {
+      "id": 58,
+      "images": "https://images.pexels.com/photos/673900/pexels-photo-673900.jpeg",
+      "category": "Space",
+      "description": "A huge moon",
+      "views": 0
+    },
+    {
+      "id": 59,
+      "images": "https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Space",
+      "description": "Universe : space and astronomy ",
+      "views": 0
+    },
+    {
+      "id": 60,
+      "images": "https://images.pexels.com/photos/1938348/pexels-photo-1938348.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Space",
+      "description": "Northern lights",
+      "views": 0
+    },
+    {
+      "id": 61,
+      "images": "https://images.pexels.com/photos/802127/pexels-photo-802127.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Trees",
+      "description": "Morning nature: tree",
+      "views": 0
+    },
+    {
+      "id": 62,
+      "images": "https://images.pexels.com/photos/34066/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Trees",
+      "description": "Tree balance our air intakes",
+      "views": 0
+    },
+    {
+      "id": 63,
+      "images": "https://images.pexels.com/photos/53435/tree-oak-landscape-view-53435.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Trees",
+      "description": "Trees are the oldest living organism",
+      "views": 0
+    },
+    {
+      "id": 64,
+      "images": "https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Trees",
+      "description": "Palm trees near island",
+      "views": 0
+    },
+    {
+      "id": 65,
+      "images": "https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Trees",
+      "description": "Trees can extend human life Years",
+      "views": 0
+    },
+    {
+      "id": 66,
+      "images": "https://images.pexels.com/photos/1080400/pexels-photo-1080400.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Trees",
+      "description": "Trees are amazing life saviors",
+      "views": 0
+    },
+    {
+      "id": 67,
+      "images": "https://images.pexels.com/photos/831088/pexels-photo-831088.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Falls",
+      "description": "niagara falls are the widest water fall in canada",
+      "views": 0
+    },
+    {
+      "id": 68,
+      "images": "https://images.pexels.com/photos/582590/pexels-photo-582590.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Falls",
+      "description": "Falls are created by erosion",
+      "views": 0
+    },
+    {
+      "id": 69,
+      "images": "https://images.pexels.com/photos/457538/pexels-photo-457538.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Falls",
+      "description": "Falls can make cliffs",
+      "views": 0
+    },
+    {
+      "id": 70,
+      "images": "https://images.pexels.com/photos/237321/pexels-photo-237321.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Falls",
+      "description": "waters here are the fresh water resources",
+      "views": 0
+    },
+    {
+      "id": 71,
+      "images": "https://images.pexels.com/photos/719632/pexels-photo-719632.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Falls",
+      "description": "Nature wallpaper ",
+      "views": 0
+    },
+    {
+      "id": 72,
+      "images": "https://images.pexels.com/photos/757142/pexels-photo-757142.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "category": "Falls",
+      "description": "amazing scenic view",
+      "views": 0
     }
+  ],
+  "categories": [
+    "ALL",
+    "animals",
+    "art",
+    "beach",
+    "city",
+    "flowers",
+    "food",
+    "forest",
+    "path",
+    "pets",
+    "Space",
+    "Trees",
+    "Falls"
   ]
 }
